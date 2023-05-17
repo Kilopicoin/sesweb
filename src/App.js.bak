@@ -1,0 +1,247 @@
+import logo from "./logo.png";
+import engineer from "./engineer.jpg";
+import engineer2 from "./engineer2.jpg";
+import timeline from "./timeline.png";
+import './reset.css';
+import './App.css';
+
+
+function App() {
+  return (
+    <div className="App">
+
+<header>
+
+
+
+
+      
+      <div className="logo">
+        <img src={logo} alt="logo" />
+
+        <div className="logo__text">
+          <h1>Smart Engineering Solutions</h1>
+        </div>
+      </div>
+
+
+      
+    </header>
+
+    <main>
+
+    /*greeting */
+    <div className="greeting">
+        <div className="greeting__text">
+          
+          <h1>
+          Ses, "Smart Engineering Solutions" is a product of Kilopi Ecosystem that aims to provide simple and smart solutions for Engineers, Architects and so on...
+          </h1>
+          
+        </div>
+      </div>
+      
+      <div className="welcome-whoarewe">
+          <div className="welcome">
+            <img src={engineer} alt="engineer" />
+            <div className="welcome-whoarewe-text">
+               <h1>Goodbye Complex Tables and Calculations</h1>
+              <p>
+            Everyday, Engineers, Architects and all other technical solution professionals are suffering the complexity of the solution technics.
+			 Developing complex solution tables, using a wide range of softwares and struggling to update them following the developments.
+			  Wasting so much energy to reach to the end of their works and can not archive them properly.
+          </p>
+            </div>
+          </div>
+
+          <div className="whoarewe">
+            <img src={engineer2} alt="engineer" />
+            <div className="welcome-whoarewe-text">
+              <h1>Say Hi to the new era. Engineering solutions by Web3</h1>
+              <p>
+            By enabling the Web3 to work for the engineering solutions, Engineers, Architects and all other technical solution professionals 
+			will be able to simplify their solutions, make them sustainable, accessible, archivable. Kilopi ecosystem will serve as a hub in this industry 
+			to help to build a bright future for all of us.
+          </p>
+            </div>
+          </div>
+        </div>
+
+      /*card */
+      <div className="card">
+        <div className="card__title">
+          <h1>Solutions</h1>
+          <div className="line"></div>
+        </div>
+
+        <div className="card__solutions">
+          <div>
+            <h1>Algorithm</h1>
+            <p>
+              The first step will be the conversation from the old centralized system's algorithm to the new and sustainable one.
+            </p>
+            <a href="https://kilopi.net/es/" rel="noreferrer" target="_blank">Soon</a>
+          </div>
+          <div>
+            <h1>Calculation</h1>
+            <p>
+              Following the algorithm, the Web3 application will start to handle the calculations.
+            </p>
+            <a href="https://kilopi.net/es/" rel="noreferrer" target="_blank">Soon</a>
+          </div>
+          <div>
+            <h1>Double Check</h1>
+            <p>
+              All Calculations will have a "Double-Check" confirmation to stay on the safe side.
+            </p>
+            <a href="https://kilopi.net/es/" rel="noreferrer" target="_blank">Soon</a>
+          </div>
+          <div>
+            <h1>Archive</h1>
+            <p>
+              All Calculations will be archived without any extra effort. Public or Private, according to the Engineer's needs.
+            </p>
+            <a href="https://kilopi.net/es/" rel="noreferrer" target="_blank">Soon</a>
+          </div>
+        </div>
+      </div>
+
+      /* timeline */
+      <div className="timeline">
+
+    
+
+        <div className="container left-container">
+
+        <img src={timeline} alt="timeline" />
+
+          <div className="text-box">
+            <h2>Idea Era</h2>
+            <small>2023</small>
+            <p> Idea is getting shaped following the meetings and discussions with the Engineering companies</p>
+
+              <span className="left-container-arrow"></span>
+
+
+          </div>
+
+        </div>
+
+      
+
+     
+
+        <div className="container right-container">
+        <img src={timeline} alt="timeline" />
+
+          <div className="text-box">
+            <h2>Presentation</h2>
+            <small>2024</small>
+            <p> Teaser Web3 solutions will be released for Engineers to make them comfortable</p>
+
+              <span className="right-container-arrow"></span>
+
+          </div>
+
+        </div>
+
+     
+
+     
+
+        <div className="container left-container">
+        <img src={timeline} alt="timeline" />
+
+          <div className="text-box">
+            <h2>Expand</h2>
+            <small>2025</small>
+            <p> Applications will be diversified and will be served as professional services with full tokenomics</p>
+
+              <span className="left-container-arrow"></span>
+
+
+          </div>
+
+        </div>
+
+    
+
+     
+
+        
+
+        </div>
+
+     
+
+      
+     /*faq */
+      <div className="faq">
+        <div className="faq__text">
+          <h1>FAQ</h1>
+          <div className="line"></div>
+        </div>
+        <details>
+          <summary>What is this "Smart Engineering Solutions" ? </summary>
+
+          <div>
+            "Smart Engineering Solutions" is a web3 application hub for engineers to make their life easier by developing the most sustainable solutions ever.
+          </div>
+        </details>
+        <details>
+          <summary>Who is behind this idea and development ? </summary>
+
+          <div>
+            Kilopi team is the founder and the main developer of this hub. More information can be found on kilopi.net website.
+          </div>
+        </details>
+        <details>
+          <summary>Which technology is being used for these solutions ? </summary>
+
+          <div>
+            Blockchain, Smart Contracts, Web3 modules, Html, Css, React, Dom etc. technologies are being used for the solutions.
+          </div>
+        </details>
+        <details>
+          <summary>I have another question ! </summary>
+
+          <div>
+            Please scroll down the page, find social links or email and send a message of your question and the team will be happy to answer.
+          </div>
+        </details>
+        
+      </div>
+    </main>
+
+    <footer>
+      
+      <div className="social">
+        <p>2023 Kilopi</p>
+
+        <div className="social__link">
+          <ul>
+            <li>
+              <a href="https://twitter.com/kilopicoin" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://t.me/tokenkilopi" target="_blank" rel="noreferrer"><i className="fa-brands fa-telegram"></i></a>
+            </li>
+            <li>
+              <a href="https://discord.gg/MQrk5NhWwu" target="_blank" rel="noreferrer" ><i className="fa-brands fa-discord"></i></a>
+            </li>
+
+            <li>
+              <a href="mailto:info@kilopi.net" target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+    </div>
+  );
+}
+
+export default App;
